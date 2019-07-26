@@ -16,6 +16,7 @@
 		1C5EB86122EB9F6F00377C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB85F22EB9F6F00377C9C /* LaunchScreen.storyboard */; };
 		1C5EB86A22EBA1AA00377C9C /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB86822EBA1AA00377C9C /* waves.json */; };
 		1C5EB86B22EBA1AA00377C9C /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB86922EBA1AA00377C9C /* enemy-types.json */; };
+		1C5EB86D22EBA9F600377C9C /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB86C22EBA9F600377C9C /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1C5EB86222EB9F6F00377C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C5EB86822EBA1AA00377C9C /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
 		1C5EB86922EBA1AA00377C9C /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enemy-types.json"; sourceTree = "<group>"; };
+		1C5EB86C22EBA9F600377C9C /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1C5EB85222EB9F6E00377C9C /* GameScene.sks */,
 				1C5EB85622EB9F6E00377C9C /* GameScene.swift */,
 				1C5EB85822EB9F6E00377C9C /* GameViewController.swift */,
+				1C5EB86C22EBA9F600377C9C /* Starfield.sks */,
 				1C5EB85A22EB9F6E00377C9C /* Main.storyboard */,
 				1C5EB85D22EB9F6F00377C9C /* Assets.xcassets */,
 				1C5EB85F22EB9F6F00377C9C /* LaunchScreen.storyboard */,
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5EB86D22EBA9F600377C9C /* Starfield.sks in Resources */,
 				1C5EB86B22EBA1AA00377C9C /* enemy-types.json in Resources */,
 				1C5EB85C22EB9F6E00377C9C /* Main.storyboard in Resources */,
 				1C5EB85322EB9F6E00377C9C /* GameScene.sks in Resources */,
