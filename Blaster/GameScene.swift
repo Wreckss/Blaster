@@ -15,9 +15,13 @@ enum CollisionType: UInt32 {
     case enemyWeapon = 8
 }
 class GameScene: SKScene {
-    override func didMove(to view: SKView) {
-        let player = SKSpriteNode(imageNamed: "player")
+    let player = SKSpriteNode(imageNamed: "player")
+    let waves = Bundle.main.decode([Wave].self, from: "waves.json")
+    let enemyTypes = Bundle.main.decode([EnemyType].self, from: "enemy-types.json")
 
+    override func didMove(to view: SKView) {
+        
+     
         if let particles = SKEmitterNode(fileNamed: "Starfield") {
             particles.position = CGPoint(x: 1000, y: 0)
             particles.advanceSimulationTime(60) //this fast forwards the generation of the Starfield by 60sec

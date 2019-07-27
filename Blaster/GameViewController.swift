@@ -29,6 +29,7 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            view.showsPhysics = true        //puts a blue line around player sprite
         }
     }
 

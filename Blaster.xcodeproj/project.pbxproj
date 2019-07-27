@@ -17,6 +17,9 @@
 		1C5EB86A22EBA1AA00377C9C /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB86822EBA1AA00377C9C /* waves.json */; };
 		1C5EB86B22EBA1AA00377C9C /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB86922EBA1AA00377C9C /* enemy-types.json */; };
 		1C5EB86D22EBA9F600377C9C /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C5EB86C22EBA9F600377C9C /* Starfield.sks */; };
+		1C5EB86F22EBBE7B00377C9C /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5EB86E22EBBE7B00377C9C /* EnemyType.swift */; };
+		1C5EB87122EBBECC00377C9C /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5EB87022EBBECC00377C9C /* Wave.swift */; };
+		1C5EB87322EBCF6E00377C9C /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5EB87222EBCF6E00377C9C /* Bundle-Decoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		1C5EB86822EBA1AA00377C9C /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
 		1C5EB86922EBA1AA00377C9C /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enemy-types.json"; sourceTree = "<group>"; };
 		1C5EB86C22EBA9F600377C9C /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		1C5EB86E22EBBE7B00377C9C /* EnemyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EnemyType.swift; path = ../../../../../System/Volumes/Data/Users/taco/XcodeProjects/Blaster/Blaster/EnemyType.swift; sourceTree = "<group>"; };
+		1C5EB87022EBBECC00377C9C /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Wave.swift; path = ../../../../../System/Volumes/Data/Users/taco/XcodeProjects/Blaster/Blaster/Wave.swift; sourceTree = "<group>"; };
+		1C5EB87222EBCF6E00377C9C /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bundle-Decoding.swift"; path = "../../../../../System/Volumes/Data/Users/taco/XcodeProjects/Blaster/Blaster/Bundle-Decoding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 				1C5EB85F22EB9F6F00377C9C /* LaunchScreen.storyboard */,
 				1C5EB86922EBA1AA00377C9C /* enemy-types.json */,
 				1C5EB86822EBA1AA00377C9C /* waves.json */,
+				1C5EB86E22EBBE7B00377C9C /* EnemyType.swift */,
+				1C5EB87022EBBECC00377C9C /* Wave.swift */,
+				1C5EB87222EBCF6E00377C9C /* Bundle-Decoding.swift */,
 				1C5EB86222EB9F6F00377C9C /* Info.plist */,
 			);
 			path = Blaster;
@@ -154,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5EB87322EBCF6E00377C9C /* Bundle-Decoding.swift in Sources */,
 				1C5EB85722EB9F6E00377C9C /* GameScene.swift in Sources */,
+				1C5EB87122EBBECC00377C9C /* Wave.swift in Sources */,
 				1C5EB85922EB9F6E00377C9C /* GameViewController.swift in Sources */,
+				1C5EB86F22EBBE7B00377C9C /* EnemyType.swift in Sources */,
 				1C5EB85122EB9F6E00377C9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
